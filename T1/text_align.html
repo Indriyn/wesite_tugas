@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section{
+            width: 50%;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+            color: brown;
+        }
+        .atas{
+            text-align: justify;
+            background-color: blue;
+            color: white;
+            padding: 50px;
+        }
+        .row{
+            display: flex;
+            width: 100%;
+        }
+        .kanan{
+            text-align: right;
+            background-color: rgb(181, 238, 253);
+            color: white;
+            padding: 50px;
+            flex: 1;
+        }
+        .kiri{
+            text-align: left;
+            background-color: rgb(188, 94, 251);
+            color: white;
+            padding: 50px;
+            flex: 1;
+        }
+        .bawah{
+            text-align: center;
+            background-color: rgb(93, 253, 85);
+            color: white;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Makanan sunda</h1>
+        <div class="atas">
+            Makanan khas Sunda sangat beragam, mulai dari hidangan utama hingga pelengkap yang segar. Ada nasi timbel, nasi liwet, tutug oncom, sayur asem, sayur lodeh, karedok, lotek, pecel leunca, pepes ikan mas, pepes peda, pepes tahu, pepes oncom, pepes jamur, gepuk, empal daging, bakakak hayam, sate maranggi, soto bandung, soto mie bogor, sop buntut, sop iga, asem-asem iga, ikan bakar sambal kecap, ikan goreng sambal terasi, ikan nila cobek, gurame pesmol, gurame goreng terbang, ayam goreng lengkuas, ayam bakar bumbu rujak, ayam ungkep kuning, dan ayam kremes.
+        </div>
+        <div class="row">
+            <div class="kiri">
+                Sayuran dan lauk pendamping pun tak kalah menggoda, seperti sayur bening bayam, tumis genjer, tumis oncom leunca, tumis daun singkong, tumis kangkung, tumis kacang panjang, lalapan mentimun, lalapan terong, lalapan selada air, sambal terasi, sambal goang, sambal dadak, sambal mangga muda, sambal cikur, sambal tomat, combro, misro, gehu jeletot, bala-bala, cireng, cilok, cilor, cimol, seblak, batagor, siomay, cuanki, tahu sumedang, tahu isi sayur, tahu gejrot, tahu petis, tempe mendoan, tempe orek, dan tempe bacem.
+            </div>
+            <div class="kanan">
+                Jajanan tradisional Sunda juga punya cita rasa khas yang sulit dilupakan. Ada awug, surabi oncom, surabi kinca, wajit cililin, opak singkong, opak ketan, ranginang, dodol garut, colenak, klepon sunda, putu ayu, getuk lindri, peuyeum singkong, peuyeum ketan, bubur sumsum, bubur kacang ijo, bubur candil, bubur ketan hitam, bubur ayam bandung, es goyobod, es cendol, es doger, es campur sunda, bajigur, bandrek, kopi tubruk, kopi sereh, wedang jahe, dan wedang uwuh.
+            </div>
+        </div>
+        <div class="bawah">
+            Tak ketinggalan, ada pula kudapan unik seperti gurandil, kue cucur, kue ape, kue rangi, dan kue putri noong. Setiap makanan ini memiliki cita rasa dan keunikan masing-masing, mulai dari gurih, pedas, manis, hingga segar. Kombinasi bumbu rempah, sambal yang khas, serta penggunaan bahan-bahan segar membuat masakan Sunda selalu menggugah selera. Tidak heran jika kuliner Sunda menjadi salah satu yang paling dicari oleh pecinta kuliner di Indonesia.
+        </div>
+    </div>
+
+    <!-- <table border="2px" cellpadding="50px" style=" width: 50%; text-align: center; " align="center">
+        <tr>
+            <td colspan="2" style="background-color: blue; color: white;">
+                Makanan khas Sunda sangat beragam, mulai dari hidangan utama hingga pelengkap yang segar. Ada nasi timbel, nasi liwet, tutug oncom, sayur asem, sayur lodeh, karedok, lotek, pecel leunca, pepes ikan mas, pepes peda, pepes tahu, pepes oncom, pepes jamur, gepuk, empal daging, bakakak hayam, sate maranggi, soto bandung, soto mie bogor, sop buntut, sop iga, asem-asem iga, ikan bakar sambal kecap, ikan goreng sambal terasi, ikan nila cobek, gurame pesmol, gurame goreng terbang, ayam goreng lengkuas, ayam bakar bumbu rujak, ayam ungkep kuning, dan ayam kremes.
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(88, 88, 255); color: white;">
+                Sayuran dan lauk pendamping pun tak kalah menggoda, seperti sayur bening bayam, tumis genjer, tumis oncom leunca, tumis daun singkong, tumis kangkung, tumis kacang panjang, lalapan mentimun, lalapan terong, lalapan selada air, sambal terasi, sambal goang, sambal dadak, sambal mangga muda, sambal cikur, sambal tomat, combro, misro, gehu jeletot, bala-bala, cireng, cilok, cilor, cimol, seblak, batagor, siomay, cuanki, tahu sumedang, tahu isi sayur, tahu gejrot, tahu petis, tempe mendoan, tempe orek, dan tempe bacem.
+            </td>
+            <td style="background-color: rgb(200, 200, 255); color: white;">
+                Jajanan tradisional Sunda juga punya cita rasa khas yang sulit dilupakan. Ada awug, surabi oncom, surabi kinca, wajit cililin, opak singkong, opak ketan, ranginang, dodol garut, colenak, klepon sunda, putu ayu, getuk lindri, peuyeum singkong, peuyeum ketan, bubur sumsum, bubur kacang ijo, bubur candil, bubur ketan hitam, bubur ayam bandung, es goyobod, es cendol, es doger, es campur sunda, bajigur, bandrek, kopi tubruk, kopi sereh, wedang jahe, dan wedang uwuh.
+            </td>
+        </tr>
+        <tr>
+            <td  colspan="2" style="background-color: rgb(255, 0, 234); color: white;">
+                Tak ketinggalan, ada pula kudapan unik seperti gurandil, kue cucur, kue ape, kue rangi, dan kue putri noong. Setiap makanan ini memiliki cita rasa dan keunikan masing-masing, mulai dari gurih, pedas, manis, hingga segar. Kombinasi bumbu rempah, sambal yang khas, serta penggunaan bahan-bahan segar membuat masakan Sunda selalu menggugah selera. Tidak heran jika kuliner Sunda menjadi salah satu yang paling dicari oleh pecinta kuliner di Indonesia.
+            </td>
+        </tr>
+    </table> -->
+</body>
+</html>

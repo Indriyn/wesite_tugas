@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        fieldset{
+            background-color: rgb(189, 15, 105);
+        }
+        legend{
+            background-color: rgb(136, 0, 70);
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        div{
+            margin: 5px;
+        }
+        form{
+            border: solid 1px rgb(216, 143, 112);
+            background-color:rgb(252, 236, 216);
+            padding: 15px;
+        }
+        input.button{
+            background: rgb(232, 121, 179);
+            font-family: sans-serif;
+            border-radius: 5px;
+
+        }
+        input.button:hover{
+            border: 1px papayawhip;
+            cursor: pointer;
+        }
+        input.button:active{
+            background: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Universitas Patilasan Ikip</legend>
+        <form>
+            <div>
+                Nama<br>
+                <input type="text">
+            </div>
+            <div>
+                Asal Sekolah<br>
+                <input type="text">
+            </div>
+            <div>
+                <input type="radio">Pria <br>
+                <input type="radio">Wanita
+            </div>
+            <div>
+                Agama <br>
+                <select>
+                    <option>--PILIH--</option>
+                    <option>Islam</option>
+                    <option>kristen</option>
+                    <option>Katholik</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                </select>
+            </div>
+            <div>
+                Nilai <br>
+                <input type="text" placeholder="Matematika">
+                <input type="text" placeholder="Bahasa Indonesia">
+                <input type="text" placeholder="Bahasa Inggris">
+            </div>
+            <div>
+                Fakultas Pilihan <br>
+                <select>
+                    <option>--PILIH--</option>
+                    <option>Falkutas Ilmu Pendidikan</option>
+                    <option>Falkutas Pendidikan Bahasa dan Seni</option>
+                    <option>Falkutas Pendidikan Olahraga dan Kesehatan</option>
+                    <option>Falkutas Pendidikan Teknik dan Kejuruan</option>
+                    <option>Falkutas Pendidikan Matematika dan Ilmu Pengetahuan Alam</option>
+                    <option>Falkutas Pendidikan Ilmu Pengetahuan Sosial</option>
+                    <option>Falkutas Pendidikan Ekomoni dan Bisnis</option>
+                </select>
+            </div>
+            <div>
+                Anda Menyetujui Persyaratan yang Berlaku <br>
+                <input type="checkbox"> Setuju
+            </div>
+            <div>
+                <input class="button" type="submit">
+                <input class="button" type="reset">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
